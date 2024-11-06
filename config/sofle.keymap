@@ -82,11 +82,11 @@
 
         layer0 {
             bindings = <
-&kp MINUS  &kp N1  &kp N2  &kp N3    &kp N4    &kp N5    &mmv MOVE_UP    &kp N6  &kp N7     &kp LEFT   &kp DOWN  &kp UP_ARROW  &kp RIGHT
-&kp TAB    &kp Q   &kp W   &kp F     &kp P     &kp G     &mmv MOVE_DOWN  &kp J   &kp L      &kp U      &kp O     &kp Y         &kp LEFT_BRACKET
-&kp ENTER  &kp A   &kp R   &kp S     &kp T     &kp D     &kp RC(LEFT)    &kp H   &kp N      &kp E      &kp I     &kp SEMI      &kp N8
-&kp LSHFT  &kp Z   &kp X   &kp C     &kp V     &kp B     &kp RC(RIGHT)   &kp K   &kp M      &kp COMMA  &kp DOT   &kp N9        &kp N0
-&sl 1      &kp F1  &kp F2  &kp LWIN  &kp LALT  &kp F5    &mkp MB2        &kp F6  &kp SPACE  &kp F7     &kp F11   &kp F12
+&kp MINUS  &kp N1  &kp N2  &kp N3    &kp N4    &kp N5    &mmv MOVE_UP    &kp AMPERSAND  &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT  &kp RIGHT
+&kp TAB    &kp Q   &kp W   &kp F     &kp P     &kp G     &mmv MOVE_DOWN  &kp J          &kp L      &kp U      &kp O    &kp Y      &kp LEFT_BRACKET
+&kp ENTER  &kp A   &kp R   &kp S     &kp T     &kp D     &kp RC(LEFT)    &kp H          &kp N      &kp E      &kp I    &kp SEMI   &kp N8
+&kp LSHFT  &kp Z   &kp X   &kp C     &kp V     &kp B     &kp RC(RIGHT)   &kp K          &kp M      &kp COMMA  &kp DOT  &kp F11    &kp F12
+&sl 1      &kp F1  &kp F2  &kp LWIN  &kp LALT  &kp F5    &mkp MB2        &kp F6         &kp SPACE  &mo 2      &kp F9   &kp F10
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -100,6 +100,16 @@
 &trans  &trans          &rgb_ug RGB_TOG  &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans          &trans           &trans        &out OUT_USB  &out OUT_BLE    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &bt BT_CLR_ALL  &trans           &trans        &trans        &trans          &trans  &trans  &trans  &trans  &trans  &trans
+            >;
+        };
+
+        Nums {
+            bindings = <
+&trans  &kp NUMBER_1  &kp NUMBER_2  &kp N3    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N4        &kp N5        &kp N6    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp N7        &kp N8        &kp N9    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp ASTERISK  &kp N0        &kp HASH  &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &trans        &trans        &trans    &trans  &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
     };
