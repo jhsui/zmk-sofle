@@ -2,6 +2,7 @@
 #include <behaviors.dtsi>
 #include <dt-bindings/zmk/bt.h>
 #include <dt-bindings/zmk/keys.h>
+#include <dt-bindings/zmk/mouse.h>
 #include <dt-bindings/zmk/outputs.h>
 #include <dt-bindings/zmk/rgb.h>
 
@@ -45,18 +46,18 @@
             key-positions = <29 30>;
         };
 
-        Caret {
-            bindings = <&kp CARET>;
+        Aster {
+            bindings = <&kp ASTERISK>;
             key-positions = <29 47>;
         };
 
-        LPar {
-            bindings = <&kp LEFT_PARENTHESIS>;
+        And {
+            bindings = <&kp AMPERSAND>;
             key-positions = <29 34>;
         };
 
-        At {
-            bindings = <&kp AT>;
+        Leftpar {
+            bindings = <&kp LEFT_PARENTHESIS>;
             key-positions = <30 47>;
         };
 
@@ -65,13 +66,13 @@
             key-positions = <30 34>;
         };
 
-        End {
-            bindings = <&kp END>;
+        Rightpar {
+            bindings = <&kp RIGHT_PARENTHESIS>;
             key-positions = <29 30 47>;
         };
 
-        Home {
-            bindings = <&kp HOME>;
+        Shift6 {
+            bindings = <&kp CARET>;
             key-positions = <29 30 34>;
         };
     };
@@ -81,11 +82,11 @@
 
         layer0 {
             bindings = <
-&kp GRAVE  &kp N1  &kp N2  &kp N3    &kp DOLLAR  &kp PERCENT    &kp PAGE_UP    &kp AMPERSAND  &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT  &kp MINUS
-&kp TAB    &kp Q   &kp W   &kp F     &kp P       &kp G          &kp PAGE_DOWN  &kp J          &kp L      &kp U      &kp O    &kp Y      &kp LEFT_BRACKET
-&kp ENTER  &kp A   &kp R   &kp S     &kp T       &kp D          &none          &kp H          &kp N      &kp E      &kp I    &kp SEMI   &kp INSERT
-&kp LSHFT  &kp Z   &kp X   &kp C     &kp V       &kp B          &none          &kp K          &kp M      &kp COMMA  &kp DOT  &kp F11    &kp F12
-&none      &kp F1  &kp F2  &kp LWIN  &kp LALT    &kp F5         &sl 1          &kp F6         &kp SPACE  &sl 2      &kp F9   &kp F10
+&kp GRAVE  &kp N1  &kp N2  &kp N3    &kp DOLLAR  &kp PERCENT    &mmv MOVE_UP    &kp AMPERSAND  &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT  &kp MINUS
+&kp TAB    &kp Q   &kp W   &kp F     &kp P       &kp G          &mmv MOVE_DOWN  &kp J          &kp L      &kp U      &kp O    &kp Y      &kp LEFT_BRACKET
+&kp ENTER  &kp A   &kp R   &kp S     &kp T       &kp D          &kp RC(LEFT)    &kp H          &kp N      &kp E      &kp I    &kp SEMI   &kp INSERT
+&kp LSHFT  &kp Z   &kp X   &kp C     &kp V       &kp B          &kp RC(RIGHT)   &kp K          &kp M      &kp COMMA  &kp DOT  &kp F11    &kp F12
+&sl 1      &kp F1  &kp F2  &kp LWIN  &kp LALT    &kp F5         &mkp MB2        &kp F6         &kp SPACE  &sl 2      &kp F9   &kp F10
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
