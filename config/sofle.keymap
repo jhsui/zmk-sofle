@@ -46,33 +46,33 @@
             key-positions = <29 30>;
         };
 
-        Aster {
-            bindings = <&kp ASTERISK>;
+        Caret {
+            bindings = <&kp CARET>;
             key-positions = <29 47>;
         };
 
-        And {
-            bindings = <&kp AMPERSAND>;
+        LPar {
+            bindings = <&kp LPAR>;
             key-positions = <29 34>;
         };
 
-        Leftpar {
-            bindings = <&kp LEFT_PARENTHESIS>;
+        At {
+            bindings = <&kp AT>;
             key-positions = <30 47>;
         };
 
         Esc {
-            bindings = <&kp ESC>;
+            bindings = <&kp ESCAPE>;
             key-positions = <30 34>;
         };
 
-        Rightpar {
-            bindings = <&kp RIGHT_PARENTHESIS>;
+        End {
+            bindings = <&kp END>;
             key-positions = <29 30 47>;
         };
 
-        Shift6 {
-            bindings = <&kp CARET>;
+        Home {
+            bindings = <&kp HOME>;
             key-positions = <29 30 34>;
         };
     };
