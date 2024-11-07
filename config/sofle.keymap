@@ -82,11 +82,11 @@
 
         layer0 {
             bindings = <
-&kp MINUS  &kp N1  &kp N2  &kp N3    &kp N4    &kp N5    &mmv MOVE_UP    &kp AMPERSAND  &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT  &kp MINUS
-&kp TAB    &kp Q   &kp W   &kp F     &kp P     &kp G     &mmv MOVE_DOWN  &kp J          &kp L      &kp U      &kp O    &kp Y      &kp LEFT_BRACKET
-&kp ENTER  &kp A   &kp R   &kp S     &kp T     &kp D     &kp RC(LEFT)    &kp H          &kp N      &kp E      &kp I    &kp SEMI   &kp N8
-&kp LSHFT  &kp Z   &kp X   &kp C     &kp V     &kp B     &kp RC(RIGHT)   &kp K          &kp M      &kp COMMA  &kp DOT  &kp F11    &kp F12
-&sl 1      &kp F1  &kp F2  &kp LWIN  &kp LALT  &kp F5    &mkp MB2        &kp F6         &kp SPACE  &mo 2      &kp F9   &kp F10
+&kp GRAVE  &kp N1  &kp N2  &kp N3    &kp DOLLAR  &kp PERCENT    &mmv MOVE_UP    &kp AMPERSAND  &kp LEFT   &kp DOWN   &kp UP   &kp RIGHT  &kp MINUS
+&kp TAB    &kp Q   &kp W   &kp F     &kp P       &kp G          &mmv MOVE_DOWN  &kp J          &kp L      &kp U      &kp O    &kp Y      &kp LEFT_BRACKET
+&kp ENTER  &kp A   &kp R   &kp S     &kp T       &kp D          &kp RC(LEFT)    &kp H          &kp N      &kp E      &kp I    &kp SEMI   &kp INSERT
+&kp LSHFT  &kp Z   &kp X   &kp C     &kp V       &kp B          &kp RC(RIGHT)   &kp K          &kp M      &kp COMMA  &kp DOT  &kp F11    &kp F12
+&sl 1      &kp F1  &kp F2  &kp LWIN  &kp LALT    &kp F5         &mkp MB2        &kp F6         &kp SPACE  &sl 2      &kp F9   &kp F10
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
@@ -108,7 +108,7 @@
 &trans  &kp NUMBER_1  &kp NUMBER_2  &kp N3    &trans                 &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp N4        &kp N5        &kp N6    &kp RIGHT_BRACKET      &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &kp N7        &kp N8        &kp N9    &kp RIGHT_PARENTHESIS  &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
-&trans  &kp ASTERISK  &kp N0        &kp HASH  &kp DOLLAR             &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
+&trans  &kp ASTERISK  &kp N0        &kp HASH  &caps_word             &trans    &trans  &trans  &trans  &trans  &trans  &trans  &trans
 &trans  &trans        &trans        &trans    &trans                 &trans    &trans  &trans  &trans  &trans  &trans  &trans
             >;
         };
