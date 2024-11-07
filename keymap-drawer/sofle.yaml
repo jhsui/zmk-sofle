@@ -7,7 +7,7 @@ layers:
   - {t: '3', s: '#'}
   - $
   - '%'
-  - PgUp
+  - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - '&'
   - $$mdi:arrow-left-bold$$
   - $$mdi:arrow-down-bold$$
@@ -20,7 +20,7 @@ layers:
   - F
   - P
   - G
-  - PgDn
+  - {t: '$$mdi:menu-down$$', s: '$$mdi:mouse$$'}
   - J
   - L
   - U
@@ -33,7 +33,7 @@ layers:
   - S
   - T
   - D
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+ $$mdi:arrow-left-bold$$
   - H
   - N
   - E
@@ -46,20 +46,20 @@ layers:
   - C
   - V
   - B
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - Ctl+ $$mdi:arrow-right-bold$$
   - K
   - M
   - {t: ',', s: <}
   - {t: ., s: '>'}
   - F11
   - F12
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - {t: Keyboard, h: '$$mdi:gesture-tap-hold$$'}
   - F1
   - F2
   - LWIN
   - $$mdi:apple-keyboard-option$$
   - F5
-  - {t: Keyboard, h: '$$mdi:gesture-tap-hold$$'}
+  - '&mkp MB2'
   - F6
   - $$mdi:keyboard-space$$
   - {t: Nums, h: '$$mdi:gesture-tap-hold$$'}
@@ -118,13 +118,13 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - BT CLR ALL
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
+  - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
@@ -199,14 +199,14 @@ combos:
 - p: [29, 30]
   k: $$mdi:backspace-reverse-outline$$
 - p: [29, 47]
-  k: ^
+  k: '*'
 - p: [29, 34]
-  k: (
+  k: '&'
 - p: [30, 47]
-  k: '@'
+  k: (
 - p: [30, 34]
   k: $$mdi:keyboard-esc$$
 - p: [29, 30, 47]
-  k: END
+  k: )
 - p: [29, 30, 34]
-  k: HOME
+  k: ^
