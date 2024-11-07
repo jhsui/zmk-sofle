@@ -1,12 +1,12 @@
 layout: {qmk_keyboard: sofle/rev1}
 layers:
   LAYER0:
-  - {t: '-', s: _}
+  - {t: '`', s: '~'}
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
+  - $
+  - '%'
   - {t: '$$mdi:menu-up$$', s: '$$mdi:mouse$$'}
   - '&'
   - $$mdi:arrow-left-bold$$
@@ -39,7 +39,7 @@ layers:
   - E
   - I
   - {t: ;, s: ':'}
-  - {t: '8', s: '*'}
+  - Ins
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
@@ -62,7 +62,7 @@ layers:
   - '&mkp MB2'
   - F6
   - $$mdi:keyboard-space$$
-  - Nums
+  - {t: Nums, h: '$$mdi:gesture-tap-hold$$'}
   - F9
   - F10
   Keyboard:
@@ -174,7 +174,7 @@ layers:
   - '*'
   - {t: '0', s: )}
   - '#'
-  - $
+  - $$mdi:alpha-w-box$$
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
