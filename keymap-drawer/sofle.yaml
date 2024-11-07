@@ -199,14 +199,14 @@ combos:
 - p: [29, 30]
   k: $$mdi:backspace-reverse-outline$$
 - p: [29, 47]
-  k: '*'
+  k: ^
 - p: [29, 34]
-  k: '&'
-- p: [30, 47]
   k: (
+- p: [30, 47]
+  k: '@'
 - p: [30, 34]
   k: $$mdi:keyboard-esc$$
 - p: [29, 30, 47]
-  k: )
+  k: END
 - p: [29, 30, 34]
-  k: ^
+  k: HOME
