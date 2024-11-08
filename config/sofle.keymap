@@ -82,11 +82,11 @@
 
         layer0 {
             bindings = <
-&kp GRAVE      &kp N1  &kp N2  &kp N3        &kp DOLLAR  &kp PERCENT    &kp PAGE_UP    &kp AMPERSAND  &kp LEFT  &kp DOWN        &kp UP   &kp RIGHT  &kp MINUS
-&kp TAB        &kp Q   &kp W   &kp F         &kp P       &kp G          &kp PAGE_DOWN  &kp J          &kp L     &kp U           &kp O    &kp Y      &kp LEFT_BRACKET
-&kp BACKSPACE  &kp A   &kp R   &kp S         &kp T       &kp D          &none          &kp H          &kp N     &kp E           &kp I    &kp SEMI   &kp AT
-&kp LSHFT      &kp Z   &kp X   &kp C         &kp V       &kp B          &none          &kp K          &kp M     &kp COMMA       &kp DOT  &kp F11    &kp F12
-&none          &kp F1  &kp F2  &kp LEFT_ALT  &kp SPACE   &kp F5         &sl 1          &kp F6         &sl 2     &kp RIGHT_META  &kp F9   &kp F10
+&kp GRAVE      &kp N1  &kp N2  &kp N3        &kp DOLLAR  &kp PERCENT    &kp PAGE_UP    &kp AMPERSAND  &kp LEFT         &kp DOWN       &kp UP   &kp RIGHT  &kp MINUS
+&kp TAB        &kp Q   &kp W   &kp F         &kp P       &kp G          &kp PAGE_DOWN  &kp J          &kp L            &kp U          &kp O    &kp Y      &kp LEFT_BRACKET
+&kp BACKSPACE  &kp A   &kp R   &kp S         &kp T       &kp D          &none          &kp H          &kp N            &kp E          &kp I    &kp SEMI   &kp AT
+&sl 2          &kp Z   &kp X   &kp C         &kp V       &kp B          &none          &kp K          &kp M            &kp COMMA      &kp DOT  &kp F11    &kp F12
+&none          &kp F1  &kp F2  &kp LEFT_ALT  &kp SPACE   &kp F5         &sl 1          &kp F6         &kp RIGHT_SHIFT  &kp LEFT_META  &kp F9   &kp F10
             >;
 
             sensor-bindings = <&inc_dec_kp C_VOL_UP C_VOL_DN>;
