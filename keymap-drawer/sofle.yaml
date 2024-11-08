@@ -40,7 +40,7 @@ layers:
   - I
   - {t: ;, s: ':'}
   - '@'
-  - $$mdi:apple-keyboard-shift$$
+  - {t: Nums, h: '$$mdi:gesture-tap-hold$$'}
   - Z
   - X
   - C
@@ -61,8 +61,8 @@ layers:
   - F5
   - {t: Keyboard, h: '$$mdi:gesture-tap-hold$$'}
   - F6
-  - {t: Nums, h: '$$mdi:gesture-tap-hold$$'}
-  - RIGHT META
+  - $$mdi:apple-keyboard-shift$$
+  - LEFT META
   - F9
   - F10
   Keyboard:
@@ -170,7 +170,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
+  - {type: held}
   - '*'
   - {t: '0', s: )}
   - '#'
@@ -191,7 +191,7 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB2'
   - {t: '$$mdi:transfer$$', type: trans}
-  - {t: F7, type: held}
+  - F7
   - F8
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
