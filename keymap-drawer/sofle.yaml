@@ -27,26 +27,26 @@ layers:
   - O
   - Y
   - {t: '[', s: '{'}
-  - {t: '$$mdi:keyboard-return$$', type: enter}
+  - {t: '$$mdi:backspace$$', type: backspace}
   - A
   - R
   - S
   - T
   - D
-  - Ctl+ $$mdi:arrow-left-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - H
   - N
   - E
   - I
   - {t: ;, s: ':'}
-  - Ins
+  - '@'
   - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
   - V
   - B
-  - Ctl+ $$mdi:arrow-right-bold$$
+  - {t: '$$mdi:minus-circle-outline$$', type: none}
   - K
   - M
   - {t: ',', s: <}
@@ -56,13 +56,13 @@ layers:
   - {t: '$$mdi:minus-circle-outline$$', type: none}
   - F1
   - F2
-  - LWIN
   - $$mdi:apple-keyboard-option$$
+  - $$mdi:keyboard-space$$
   - F5
   - {t: Keyboard, h: '$$mdi:gesture-tap-hold$$'}
   - F6
-  - $$mdi:keyboard-space$$
   - {t: Nums, h: '$$mdi:gesture-tap-hold$$'}
+  - RIGHT META
   - F9
   - F10
   Keyboard:
@@ -191,8 +191,8 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - '&mkp MB2'
   - {t: '$$mdi:transfer$$', type: trans}
-  - F7
-  - {t: F8, type: held}
+  - {t: F7, type: held}
+  - F8
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
 combos:
