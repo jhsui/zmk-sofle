@@ -5,22 +5,22 @@ layers:
   - {t: '1', s: '!'}
   - {t: '2', s: '@'}
   - {t: '3', s: '#'}
-  - $
-  - '%'
-  - PgUp
+  - {t: '4', s: $}
+  - {t: '5', s: '%'}
+  - F4
+  - ^
   - '&'
-  - $$mdi:arrow-left-bold$$
-  - $$mdi:arrow-down-bold$$
-  - $$mdi:arrow-up-bold$$
-  - $$mdi:arrow-right-bold$$
+  - '*'
+  - {t: /, s: '?'}
   - {t: '-', s: _}
+  - {t: '=', s: +}
   - $$mdi:keyboard-tab$$
   - Q
   - W
   - F
   - P
   - G
-  - PgDn
+  - F8
   - J
   - L
   - U
@@ -33,20 +33,20 @@ layers:
   - S
   - T
   - D
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F3
   - H
   - N
   - E
   - I
   - {t: ;, s: ':'}
-  - '@'
-  - {t: Nums, h: '$$mdi:gesture-tap-hold$$'}
+  - {t: \, s: '|'}
+  - $$mdi:apple-keyboard-shift$$
   - Z
   - X
   - C
   - V
   - B
-  - {t: '$$mdi:minus-circle-outline$$', type: none}
+  - F7
   - K
   - M
   - {t: ',', s: <}
@@ -130,71 +130,6 @@ layers:
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
   - {t: '$$mdi:transfer$$', type: trans}
-  Nums:
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '1'
-  - '2'
-  - {t: '3', s: '#'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '4', s: $}
-  - {t: '5', s: '%'}
-  - {t: '6', s: ^}
-  - {t: ']', s: '}'}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '7', s: '&'}
-  - {t: '8', s: '*'}
-  - {t: '9', s: (}
-  - )
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {type: held}
-  - '*'
-  - {t: '0', s: )}
-  - '#'
-  - $$mdi:alpha-w-box$$
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F3
-  - F4
-  - {t: '$$mdi:transfer$$', type: trans}
-  - '&mkp MB2'
-  - {t: '$$mdi:transfer$$', type: trans}
-  - F7
-  - F8
-  - {t: '$$mdi:transfer$$', type: trans}
-  - {t: '$$mdi:transfer$$', type: trans}
 combos:
 - p: [29, 30]
   k: $$mdi:backspace-reverse-outline$$
@@ -203,9 +138,9 @@ combos:
 - p: [29, 34]
   k: (
 - p: [30, 47]
-  k: '@'
-- p: [30, 34]
   k: $$mdi:keyboard-esc$$
+- p: [30, 34]
+  k: {t: '$$mdi:keyboard-return$$', type: enter}
 - p: [29, 30, 47]
   k: END
 - p: [29, 30, 34]
